@@ -13,6 +13,7 @@ s3://chspctrack/cHSPCTrack/
 After cloning the code repository, the data should be downloaded into the data/ directory at the root of the repository using:
 
 ```bash
+mkdir -p data
 aws s3 sync s3://chspctrack/cHSPCTrack ./data --no-sign-request
 ```
 
